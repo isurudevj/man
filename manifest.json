@@ -1,0 +1,27 @@
+{
+    "name": "man [context] [keywords...]",
+    "description": "Type 'man' plus a search term into the Omnibox to open search in new tab.",
+    "version": "1.0",
+    "background": {
+      "page": "background.html",
+      "persistent": false
+    },
+    "omnibox": { "keyword" : "man" },
+    "permissions" : [
+        "storage"
+    ],
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": {
+        "16": "images/newtab_search16.png",
+        "32": "images/newtab_search32.png"
+        }
+    },
+    "icons": {
+      "16": "images/newtab_search16.png",
+      "32": "images/newtab_search32.png",
+      "48": "images/newtab_search48.png",
+      "128": "images/newtab_search128.png"
+    }
+  }
+  
