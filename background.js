@@ -18,7 +18,7 @@ chrome.omnibox.onInputEntered.addListener(
       var domains = data.domains;
       var arr = text.split(/[ ,]+/);
       var context = arr[0];
-      var domain = domains[context];
+      var domain = domains.find(element => element === context).domain;
       var query = arr.slice(1).reduce((a, n) => a + " " + n);
       // Encode user input for special characters , / ? : @ & = + $ #
       var newURL = 'https://www.google.com/search?q=' + "site:" + domain + " " + encodeURIComponent(query);
