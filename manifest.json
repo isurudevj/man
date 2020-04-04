@@ -13,15 +13,15 @@
     "manifest_version": 2,
     "browser_action": {
       "default_icon": {
-        "16": "images/newtab_search16.png",
-        "32": "images/newtab_search32.png"
+        "16": "images/man_16.png",
+        "32": "images/man_32.png"
         }
     },
     "icons": {
-      "16": "images/newtab_search16.png",
-      "32": "images/newtab_search32.png",
-      "48": "images/newtab_search48.png",
-      "128": "images/newtab_search128.png"
+      "16": "images/man_16.png",
+      "32": "images/man_32.png",
+      "48": "images/man_48.png",
+      "128": "images/man_128.png"
     }
   }
   
