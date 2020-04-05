@@ -16,10 +16,8 @@ chrome.omnibox.onInputEntered.addListener(
   function(text) {
     chrome.storage.sync.get('domains', function(data) {
       var domains = data.domains;
-      console.log(domains)
       var arr = text.split(/[ ,]+/);
       var context = arr[0];
-      console.log(context); 
       var domain = domains.find(element => element.context === context).domain;
       var query = arr.slice(1).reduce((a, n) => a + " " + n);
       // Encode user input for special characters , / ? : @ & = + $ #
