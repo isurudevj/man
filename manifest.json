@@ -1,7 +1,7 @@
 {
     "name": "man [context] [keywords...]",
     "description": "Type 'man' plus a search term into the Omnibox to open search in new tab.",
-    "version": "1.0",
+    "version": "0.10",
     "background": {
       "page": "background.html",
       "persistent": false
