@@ -1,32 +1,66 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <body>
-        <h4>Configure the man plugin behaviour the way you want.</h4>
-    
-        <table style="width:100%" border="1" id="configTable">
-            <tr>
-                <th>Context</th>
-                <th>Site</th> 
-            </tr>
-        </table>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-        <br>
-        <br>
+    <title>Configure man plugin</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Configure the man plugin behaviour the way you want.</h4>
+
+      <table style="width: 100%" border="1" id="configTable">
+        <tr>
+          <th>Context</th>
+          <th>Site</th>
+        </tr>
+      </table>
+
+      <br />
+      <br />
+      <div>
+        <label for="context">Context:</label><br />
+        <input type="text" id="context" /><br />
+        <label for="dmain">Domain:</label><br />
+        <input type="text" id="domain" /><br />
+        <br />
         <div>
-            <label for="context">Context:</label><br>
-            <input type="text" id="context"><br>
-            <label for="dmain">Domain:</label><br>
-            <input type="text" id="domain"><br>
-            <br>
-            <div>
-                <button id="addBtn">Add</button>
-            </div>
-        
+          <button id="addBtn" class="btn btn-primary">Add</button>
         </div>
+      </div>
+    </div>
 
-        <script src="options.js" type="application/javascript"></script>
+    <script src="options.js" type="application/javascript"></script>
 
-    </body>
-
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
