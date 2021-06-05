@@ -1,31 +1,28 @@
 {
-    "name": "man [context] [keywords...]",
-    "description": "Type 'man' plus a search term into the Omnibox to open search in new tab.",
-    "version": "0.10",
-    "background": {
-      "page": "background.html",
-      "persistent": false
-    },
-    "omnibox": { "keyword" : "man" },
-    "permissions" : [
-        "storage"
-    ],
-    "options_ui" : {
-        "page" : "options.html",
-        "open_in_tab" : false
-    },
-    "manifest_version": 2,
-    "browser_action": {
-      "default_icon": {
-        "16": "images/man_16.png",
-        "32": "images/man_32.png"
-        }
-    },
-    "icons": {
+  "name": "MAN",
+  "description": "Type 'man' plus a search term into the Omnibox to open search in new tab.",
+  "version": "0.0.1",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "omnibox": { "keyword": "man" },
+  "permissions": ["storage"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
       "16": "images/man_16.png",
-      "32": "images/man_32.png",
-      "48": "images/man_48.png",
-      "128": "images/man_128.png"
+      "32": "images/man_32.png"
     }
+  },
+  "icons": {
+    "16": "images/man_16.png",
+    "32": "images/man_32.png",
+    "48": "images/man_48.png",
+    "128": "images/man_128.png"
   }
-  
+}
