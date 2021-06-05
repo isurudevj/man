@@ -17,13 +17,30 @@ function loadData() {
       sitesCell.innerHTML = element.domain;
     });
 
-    document.getElementById("addBtn").addEventListener("click", addNewContext);
+    document
+      .querySelector("#addBtn")
+      .addEventListener("click", (event) => addNewContext(event), false);
   });
 }
 
-function addNewContext() {
-  var context = document.getElementById("context").value.trim();
-  var domain = document.getElementById("domain").value.trim();
+function addNewContext(event) {
+  event.preventDefault();
+  let contextElement = document.querySelector("#context");
+  let domainElement = document.querySelector("#domain");
+
+  let context = contextElement.value.trim();
+  let domain = domainElement.value.trim();
+
+  let warnMsg = document.querySelector("#warn-msg");
+  if (context.length === 0 || domain.length === 0) {
+    warnMsg.classList.remove("d-none");
+    return;
+  } else {
+    warnMsg.classList.add("d-none");
+  }
+
+  domainElement.value = "";
+  contextElement.value = "";
 
   chrome.storage.sync.get("domains", function (data) {
     var domains = data.domains;

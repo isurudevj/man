@@ -57,7 +57,16 @@
               placeholder="docs.docker.com | kubernetes.io"
             />
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="form-group">
+            <button type="submit" id="addBtn" class="btn btn-primary">
+              Add Context
+            </button>
+          </div>
+          <div class="form-group">
+            <div class="alert alert-warning d-none" id="warn-msg" role="alert">
+              Context or sites cannot be empty.
+            </div>
+          </div>
         </fieldset>
       </form>
       <br />
