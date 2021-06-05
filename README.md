@@ -9,5 +9,12 @@ And the legendary warrior of the galaxy `The Mandalorian`.
     <img width="460" height="300" src="https://github.com/isurudevj/man/raw/main/github-docs/mando.gif">
 </p>
 
-This plugin adds and option to omnibox of the google chrome.
-Once you type man and press tab button the plugin will be activated in the omnibox.
+# Demo
+
+Type man on the chrome address bar and press the tab button. Then enter a context say `spring`.
+Then type the search term say `aop`. Results will be limited to the sites you configured for `spring`.
+In my case `docs.spring.io`.
+
+<p align="center">
+    <img width="460" height="300" src="https://github.com/isurudevj/man/raw/main/github-docs/demo.gif">
+</p>
