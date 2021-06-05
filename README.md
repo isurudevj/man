@@ -23,7 +23,10 @@ In my case `docs.spring.io`.
 
 ## Configuring Context
 
-Plugin configuration will allow you to created your context and the sites you want to limit to.
+Plugin configuration will allow you to create your own context and the sites you want to limit to.
+
+For an example:
+
 You want to limit your `mongodb` related queries to `docs.mongodb.com`
 Context in this case is `mongodb`
 Sites in this case is `docs.mongodb.com`
