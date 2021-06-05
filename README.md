@@ -1,6 +1,6 @@
 # About Plugin
 
-Man is a google chrome plugin. Named after legendary linux command `Man`.
+Man is a google chrome plugin. Named after legendary linux command `MAN`.
 And also after the legendary warriors of the galaxy `The Mandalorian`.
 
 This plugin adds and option to omnibox of the google chrome.
