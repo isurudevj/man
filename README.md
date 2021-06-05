@@ -43,5 +43,5 @@ Clone this code or download source as a zip file (then unzip it).
 Enable developer mode to install the extension.
 
 <p align="center">
-    <img width="460" height="300" src="https://github.com/isurudevj/man/raw/main/github-docs/context_configure.gif">
+    <img width="460" height="300" src="https://github.com/isurudevj/man/raw/main/github-docs/install.gif">
 </p>
