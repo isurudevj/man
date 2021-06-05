@@ -1,7 +1,7 @@
 # About Plugin
 
 Man is a google chrome plugin. Named after legendary linux command `MAN`.
-And also after the legendary warriors of the galaxy `The Mandalorian`.
+And the legendary warrior of the galaxy `The Mandalorian`.
 
 <h1 align="center">A good engineer is a strong believer of manuals.</h1>
 
