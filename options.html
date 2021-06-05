@@ -22,45 +22,47 @@
     <div class="container">
       <h4>Configure the man plugin behaviour the way you want.</h4>
 
-      <table style="width: 100%" border="1" id="configTable">
-        <tr>
-          <th>Context</th>
-          <th>Site</th>
-        </tr>
-      </table>
-
       <br />
       <br />
       <div>
-        <label for="context">Context:</label><br />
-        <input type="text" id="context" /><br />
-        <label for="dmain">Domain:</label><br />
-        <input type="text" id="domain" /><br />
-        <br />
-        <div>
-          <button id="addBtn" class="btn btn-primary">Add</button>
-        </div>
+        <table class="table" id="configTable">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Context</th>
+              <th scope="col">Sites</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
       </div>
+
+      <form>
+        <fieldset>
+          <div class="form-group">
+            <label for="context">Context</label>
+            <input
+              type="text"
+              id="context"
+              class="form-control"
+              placeholder="docker"
+            />
+          </div>
+          <div class="form-group">
+            <label for="domain">Domain</label>
+            <input
+              type="text"
+              id="domain"
+              class="form-control"
+              placeholder="docs.docker.com | kubernetes.io"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+      </form>
+      <br />
     </div>
 
     <script src="options.js" type="application/javascript"></script>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
